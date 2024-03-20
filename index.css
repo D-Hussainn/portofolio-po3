@@ -109,7 +109,7 @@
 
 .main{
     grid-area: mn;
-    background-color: red;
+    background-color: black;
     height: 730px;
     display:flex;
     justify-content: center;
@@ -140,7 +140,7 @@
     width: 60px;
     height: 50px;
     cursor: pointer;
-    margin-left: 1430px;
+
 }
 
 .snap-logo {
@@ -170,6 +170,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -184,25 +185,57 @@
 
     .header{
         grid-area: hd;
-        background-color: blue;
+        background-color: black;
         height: 150px;
     }
     
     .main{
         grid-area: mn;
-        background-color: red;
+        background-color: black;
         height: 636px;
     }
     
     .footer{
         grid-area: ft;
-        background-color: green;
+        background-color: black;
         height: 138px;
+    }
+
+    .home-button {
+        width: 150px;
+        height: 80px;
+        font-size: 20px;
+        margin-left: 275px;
+    }
+    
+    .over-mij-button {
+        width: 150px;
+        height: 80px;
+        font-size: 20px;
+    }
+    
+    .project-button {
+        width: 150px;
+        height: 80px;
+        font-size: 16px;
+    }
+    
+    .scooter-button {
+        width: 150px;
+        height: 80px;
+        font-size: 13px;
+    }
+
+    .logo {
+        width: 67px;
+        height: 54px;
+        cursor: pointer;
+        margin-left: 45px;
     }
     
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 500px) {
     .wrapper {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -214,20 +247,52 @@
 
     .header{
         grid-area: hd;
-        background-color: blue;
+        background-color: black;
         height: 150px;
     }
     
     .main{
         grid-area: mn;
-        background-color: red;
+        background-color: black;
         height: 674px;
     }
     
     .footer{
         grid-area: ft;
-        background-color: green;
+        background-color: black;
         height: 100px;
+    }
+
+    .home-button {
+        width: 100px;
+        height: 60px;
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    
+    .over-mij-button {
+        width: 100px;
+        height: 60px;
+        font-size: 10px;
+    }
+    
+    .project-button {
+        width: 100px;
+        height: 60px;
+        font-size: 10px;
+    }
+    
+    .scooter-button {
+        width: 100px;
+        height: 60px;
+        font-size: 7px;
+    }
+
+    .logo {
+        width: 67px;
+        height: 54px;
+        cursor: pointer;
+        margin-left: 0px;
     }
     
 }
