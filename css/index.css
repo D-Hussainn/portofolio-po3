@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.wrapper{
+.wrapper {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
@@ -14,28 +14,27 @@
         "ft";
 }
 
-.header{
+.header {
     grid-area: hd;
     background-color: #0D0D0D;
     height: 150px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 
 
 }
 
-.relative{
-    position:relative;
+.relative {
+    position: relative;
 }
 
-.img-welcome{
-    position:absolute;
+.img-welcome {
+    position: absolute;
 }
 
 
 .logo {
-    margin-left: 45px;
     width: 150px;
     height: 130px;
     cursor: pointer;
@@ -52,7 +51,6 @@
     border: 10px solid black;
     border-radius: 10px;
     cursor: pointer;
-    margin-left: 275px;
 }
 
 .home-button:hover {
@@ -107,15 +105,19 @@
     background-color: #5B5959;
 }
 
-.main{
+.black {
+    width: 0px;
+}
+
+.main {
     grid-area: mn;
     background-color: black;
     height: 730px;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
-.img-text{
+.img-text {
     display: grid;
     grid-area: wk;
     justify-content: center;
@@ -126,12 +128,12 @@
     font-size: 85px;
 }
 
-.img-welcome{
+.img-welcome {
     height: 871px;
     width: 1920px;
 }
 
-.credit{
+.credit {
     margin-left: 15px;
     font-size: 22px;
 }
@@ -161,7 +163,7 @@
     cursor: pointer;
 }
 
-.footer{
+.footer {
     grid-area: ft;
     background-color: #0D0D0D;
     height: 83px;
@@ -174,52 +176,24 @@
 }
 
 @media only screen and (max-width: 1280px) {
-    .wrapper {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas:
-            "hd"
-            "mn"
-            "ft";
-    }  
-
-    .header{
-        grid-area: hd;
-        background-color: black;
-        height: 150px;
-    }
-    
-    .main{
-        grid-area: mn;
-        background-color: black;
-        height: 636px;
-    }
-    
-    .footer{
-        grid-area: ft;
-        background-color: black;
-        height: 138px;
-    }
-
     .home-button {
         width: 150px;
         height: 80px;
         font-size: 20px;
-        margin-left: 275px;
     }
-    
+
     .over-mij-button {
         width: 150px;
         height: 80px;
         font-size: 20px;
     }
-    
+
     .project-button {
         width: 150px;
         height: 80px;
         font-size: 16px;
     }
-    
+
     .scooter-button {
         width: 150px;
         height: 80px;
@@ -227,73 +201,43 @@
     }
 
     .logo {
-        width: 67px;
-        height: 54px;
-        cursor: pointer;
-        margin-left: 45px;
+        width: 90px;
+        height: 76px;
     }
-    
+
 }
 
-@media only screen and (max-width: 500px) {
-    .wrapper {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas:
-            "hd"
-            "mn"
-            "ft";
-    }  
-
-    .header{
-        grid-area: hd;
-        background-color: black;
-        height: 150px;
-    }
-    
-    .main{
-        grid-area: mn;
-        background-color: black;
-        height: 674px;
-    }
-    
-    .footer{
-        grid-area: ft;
-        background-color: black;
-        height: 100px;
-    }
+@media only screen and (max-width: 700px) {
 
     .home-button {
-        width: 100px;
-        height: 60px;
+        width: 95px;
+        height: 55px;
         font-size: 10px;
-        margin-left: 0px;
     }
-    
+
     .over-mij-button {
-        width: 100px;
-        height: 60px;
+        width: 95px;
+        height: 55px;
         font-size: 10px;
     }
-    
+
     .project-button {
-        width: 100px;
-        height: 60px;
-        font-size: 10px;
+        width: 95px;
+        height: 55px;
+        font-size: 9px;
     }
-    
+
     .scooter-button {
-        width: 100px;
-        height: 60px;
-        font-size: 7px;
+        width: 95px;
+        height: 55px;
+        font-size: 6px;
     }
 
     .logo {
         width: 67px;
         height: 54px;
-        cursor: pointer;
-        margin-left: 0px;
     }
-    
-}
 
+
+
+}
