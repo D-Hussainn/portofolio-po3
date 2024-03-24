@@ -166,7 +166,7 @@
 .footer {
     grid-area: ft;
     background-color: #0D0D0D;
-    height: 83px;
+    height: 68px;
     color: white;
     font-weight: 1000;
     display: flex;

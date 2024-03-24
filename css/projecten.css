@@ -105,15 +105,13 @@
     display: grid;
     padding: 75px;
     color: white;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     border-bottom: 5px solid black;
     border-top: 5px solid black;
 }
 
-.project-text {
+.left-text {
     text-align: center;
-    padding-left: 75px;
-    padding-right: 75px;
 }
 
 .titel {
@@ -123,64 +121,21 @@
 
 .text {
     font-size: 23px;
-    text-align: center;
+    text-align: start;
     font-weight: 1000;
 }
 
-.hoger-lager {
+.picture {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
-.img-hoger-lager {
-    width: 310px;
-    height: 200px;
-    cursor: pointer;
+.img {
+    width: 600px;
+    height: 370px;
 }
 
-.hoger-lager-text {
-    font-size: 35px;
-    font-weight: 1000;
-}
-
-.escaperoom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.img-wam {
-    width: 360px;
-    height: 200px;
-    cursor: pointer;
-}
-
-.wam-text {
-    font-size: 35px;
-    font-weight: 1000;
-}
-
-.wam {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.img-escaperoom {
-    width: 360px;
-    height: 200px;
-    cursor: pointer;
-
-}
-
-.escaperoom-text {
-    font-size: 35px;
-    font-weight: 1000;
-}
 
 
 .credit {
@@ -223,71 +178,4 @@
     justify-content: flex-start;
     align-items: center;
     justify-content: space-between;
-}
-
-@media only screen and (max-width: 1280px) {
-    .home-button {
-        width: 150px;
-        height: 80px;
-        font-size: 20px;
-    }
-
-    .over-mij-button {
-        width: 150px;
-        height: 80px;
-        font-size: 20px;
-    }
-
-    .project-button {
-        width: 150px;
-        height: 80px;
-        font-size: 16px;
-    }
-
-    .scooter-button {
-        width: 150px;
-        height: 80px;
-        font-size: 13px;
-    }
-
-    .logo {
-        width: 90px;
-        height: 76px;
-    }
-
-}
-
-@media only screen and (max-width: 700px) {
-
-    .home-button {
-        width: 95px;
-        height: 55px;
-        font-size: 10px;
-    }
-
-    .over-mij-button {
-        width: 95px;
-        height: 55px;
-        font-size: 10px;
-    }
-
-    .project-button {
-        width: 95px;
-        height: 55px;
-        font-size: 9px;
-    }
-
-    .scooter-button {
-        width: 95px;
-        height: 55px;
-        font-size: 6px;
-    }
-
-    .logo {
-        width: 67px;
-        height: 54px;
-    }
-
-
-
 }

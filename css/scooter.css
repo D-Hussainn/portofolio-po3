@@ -29,7 +29,6 @@
     cursor: pointer;
 }
 
-
 .home-button {
     width: 250px;
     height: 100px;
@@ -66,7 +65,7 @@
     width: 250px;
     height: 100px;
     font-size: 30px;
-    background-color: #5B5959;
+    background-color: #2F2E2E;
     color: white;
     font-weight: 1000;
     border: 10px solid black;
@@ -82,7 +81,7 @@
     width: 250px;
     height: 100px;
     font-size: 25px;
-    background-color: #2F2E2E;
+    background-color: #5B5959;
     color: white;
     font-weight: 1000;
     border: 10px solid black;
@@ -105,15 +104,9 @@
     display: grid;
     padding: 75px;
     color: white;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     border-bottom: 5px solid black;
     border-top: 5px solid black;
-}
-
-.project-text {
-    text-align: center;
-    padding-left: 75px;
-    padding-right: 75px;
 }
 
 .titel {
@@ -122,66 +115,29 @@
 }
 
 .text {
-    font-size: 23px;
-    text-align: center;
+    font-size: 14px;
     font-weight: 1000;
 }
 
-.hoger-lager {
+.scooter-foto{
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
-.img-hoger-lager {
-    width: 310px;
-    height: 200px;
-    cursor: pointer;
+.scooter-img-1 {
+    width: 295px;
+    height: 544px;
 }
 
-.hoger-lager-text {
-    font-size: 35px;
-    font-weight: 1000;
-}
-
-.escaperoom {
+.scooter-foto-2 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
-.img-wam {
-    width: 360px;
-    height: 200px;
-    cursor: pointer;
+.scooter-img-2 {
+    width: 295px;
+    height: 544px;
 }
-
-.wam-text {
-    font-size: 35px;
-    font-weight: 1000;
-}
-
-.wam {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.img-escaperoom {
-    width: 360px;
-    height: 200px;
-    cursor: pointer;
-
-}
-
-.escaperoom-text {
-    font-size: 35px;
-    font-weight: 1000;
-}
-
 
 .credit {
     margin-left: 15px;
