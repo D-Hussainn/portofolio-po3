@@ -7,7 +7,7 @@ const GoToSocial = document.querySelector(".socials-footer");
 const GoToHogerLager = document.querySelector(".img-hoger-lager");
 const GoToEscaperoom = document.querySelector(".img-escaperoom");
 const GoToWam = document.querySelector(".img-wam");
-
+// button isn header
 Logo.addEventListener("click", () => {
     window.location.href = "/index.html";
 });
@@ -32,6 +32,7 @@ GoToSocial.addEventListener("click", () => {
     window.location.href = "/html/over-mij.html";
 });
 
+// buttons  in main
 GoToHogerLager.addEventListener("click", () => {
     window.location.href = "/html/hoger-lager.html";
 });

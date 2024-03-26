@@ -5,6 +5,7 @@ const GoToProject = document.querySelector(".project-button");
 const GoToMijnScooter = document.querySelector(".scooter-button");
 const GoToSocial = document.querySelector(".socials-footer");
 
+// button isn header
 Logo.addEventListener("click", () => {
     window.location.href = "/index.html";
 });
