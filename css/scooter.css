@@ -244,6 +244,42 @@
         height: 54px;
     }
 
+    .main {
+        grid-area: mn;
+        background-color: #0D0D0D;
+        height: 555px;
+        display: grid;
+        padding: 75px;
+        color: white;
+        grid-template-columns: 1fr 1fr 1fr;
+        border-bottom: 5px solid black;
+        border-top: 5px solid black;
+    }
 
+    .scooter-img-1 {
+        width: 295px;
+        height: 250px;
+    }
+    
+    .scooter-img-2 {
+        width: 295px;
+        height: 250px;
+    }
+
+    .scooter-foto-2 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .titel {
+        font-size: 20px;
+        font-weight: 1000;
+    }
+
+    .text {
+        font-size: 11px;
+        font-weight: 1000;
+    }
 
 }
