@@ -1,0 +1,35 @@
+.text{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+  background-color: #0D0D0D;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav.navbar-shrink {
+    background-color: #0D0D0D;
+  }
+}
+
+.img-overflow{
+  overflow: hidden;
+}
